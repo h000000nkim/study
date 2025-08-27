@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maxinum Likelihood Estimation.md",
+                "file": "others/Formula (LaTeX).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maxinum Likelihood Estimation"
+              "title": "Formula (LaTeX)"
             }
           },
           {
@@ -226,15 +226,25 @@
   },
   "active": "0551001f34a3cdb0",
   "lastOpenFiles": [
-    "OTHERS/Distribution/Probability Mass Function.md",
-    "OTHERS/Distribution/Untitled.md",
-    "OTHERS/Distribution/Bernoulli Distribution.md",
-    "Maxinum Likelihood Estimation.md",
-    "Formula.md",
-    "OTHERS/Distribution",
-    "IRT/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
-    "OTHERS/공분산.md",
-    "OTHERS",
-    "IRT"
+    "pdf/The Theory and Practice of Item Response Theory, Second -- Rafael J De Ayala -- ( WeLib.org ).pdf",
+    "pdf",
+    "새 폴더",
+    "Measurement Theory/Measurement Theory.md",
+    "Measurement Theory",
+    "statistics/Covariance.md",
+    "statistics/Maxinum Likelihood Estimation.md",
+    "others/Formula (LaTeX).md",
+    "statistics",
+    "Untitled.canvas",
+    "Untitled.md",
+    "books",
+    "books/CHAPTER 06 IRT 척도 연계 및 동등화의 표준 오차.md",
+    "statistics/Distribution/Probability Mass Function.md",
+    "statistics/Distribution/Untitled.md",
+    "statistics/Distribution/Bernoulli Distribution.md",
+    "statistics/Distribution",
+    "books/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
+    "others",
+    "Measurement Theory/IRT"
   ]
 }
