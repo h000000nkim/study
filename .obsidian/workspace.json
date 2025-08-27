@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "9086c4da150dc588",
+    "type": "split",
+    "children": [
+      {
+        "id": "055d7b4ecafebbd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cc44df28594701f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          },
+          {
+            "id": "4b992d6aec8f407f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formula.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Formula"
+            }
+          },
+          {
+            "id": "a91087fd889cfa9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OTHERS/Distribution/Probability Mass Function.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Probability Mass Function"
+            }
+          },
+          {
+            "id": "0551001f34a3cdb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maxinum Likelihood Estimation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maxinum Likelihood Estimation"
+            }
+          },
+          {
+            "id": "1377f07835c25adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formula.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Formula"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "584bb096e6588bbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1850d686f897c419",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a089638002bd3a80",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d4f1b6589e310274",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6f29b7a346012509",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31a3ff910bf144aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6946f1799529323",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c3eccb03605a50d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IRT/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 김성훈, 2022, 문항반응이론 검사동등화, 공동체"
+            }
+          },
+          {
+            "id": "186f9ac605ee0d0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IRT/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 김성훈, 2022, 문항반응이론 검사동등화, 공동체"
+            }
+          },
+          {
+            "id": "600c1d303ae8cd1d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3f8ada6222cde202",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IRT/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 김성훈, 2022, 문항반응이론 검사동등화, 공동체"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0551001f34a3cdb0",
+  "lastOpenFiles": [
+    "OTHERS/Distribution/Probability Mass Function.md",
+    "OTHERS/Distribution/Untitled.md",
+    "OTHERS/Distribution/Bernoulli Distribution.md",
+    "Maxinum Likelihood Estimation.md",
+    "Formula.md",
+    "OTHERS/Distribution",
+    "IRT/김성훈, 2022, 문항반응이론 검사동등화, 공동체.md",
+    "OTHERS/공분산.md",
+    "OTHERS",
+    "IRT"
+  ]
+}
