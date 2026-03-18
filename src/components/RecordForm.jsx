@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useRecords } from '../hooks/useRecords';
 import { useAuth } from '../hooks/useAuth';
+import RichTextEditor from './RichTextEditor';
 
 export default function RecordForm({ studyId }) {
   const { addRecord } = useRecords(studyId);
@@ -13,7 +14,7 @@ export default function RecordForm({ studyId }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!form.date || !form.topic || !form.content) return;
+    if (!form.date || !form.topic || !form.content || form.content === '<p></p>') return;
     setSubmitting(true);
     addRecord({
       ...form,
@@ -47,13 +48,9 @@ export default function RecordForm({ studyId }) {
       </div>
       <div className="form-row">
         <label>내용</label>
-        <textarea
-          name="content"
+        <RichTextEditor
           value={form.content}
-          onChange={handleChange}
-          placeholder="학습 내용을 자유롭게 적어주세요"
-          rows={5}
-          required
+          onChange={(html) => setForm((prev) => ({ ...prev, content: html }))}
         />
       </div>
       <button type="submit" className="btn btn-primary" disabled={submitting}>

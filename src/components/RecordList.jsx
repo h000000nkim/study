@@ -26,7 +26,10 @@ export default function RecordList({ studyId }) {
             )}
           </div>
           <h3 className="topic">{record.topic}</h3>
-          <p className="content">{record.content}</p>
+          <div
+            className="content rich-content"
+            dangerouslySetInnerHTML={{ __html: record.content }}
+          />
         </div>
       ))}
     </div>
