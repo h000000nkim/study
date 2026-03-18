@@ -15,17 +15,14 @@ export default function RecordForm() {
     e.preventDefault();
     if (!form.date || !form.topic || !form.content) return;
     setSubmitting(true);
-    try {
-      await addRecord({
-        ...form,
-        author: user.displayName,
-        authorId: user.uid,
-        authorPhoto: user.photoURL,
-      });
-      setForm({ date: '', topic: '', content: '' });
-    } finally {
-      setSubmitting(false);
-    }
+    addRecord({
+      ...form,
+      author: user.displayName,
+      authorId: user.uid,
+      authorPhoto: user.photoURL,
+    });
+    setForm({ date: '', topic: '', content: '' });
+    setSubmitting(false);
   };
 
   if (!user) return <p className="hint">기록을 작성하려면 로그인하세요.</p>;
