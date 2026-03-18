@@ -1,8 +1,8 @@
 import { useRecords } from '../hooks/useRecords';
 import { useAuth } from '../hooks/useAuth';
 
-export default function RecordList() {
-  const { records, loading, deleteRecord } = useRecords();
+export default function RecordList({ studyId }) {
+  const { records, loading, deleteRecord } = useRecords(studyId);
   const { user } = useAuth();
 
   if (loading) return <p className="hint">불러오는 중...</p>;
@@ -20,16 +20,16 @@ export default function RecordList() {
               <span className="date">{record.date}</span>
             </div>
             {user?.uid === record.authorId && (
-              <button
-                onClick={() => deleteRecord(record.id)}
-                className="btn btn-danger btn-sm"
-              >
+              <button onClick={() => deleteRecord(record.id)} className="btn btn-danger btn-sm">
                 삭제
               </button>
             )}
           </div>
           <h3 className="topic">{record.topic}</h3>
-          <p className="content">{record.content}</p>
+          <div
+            className="content rich-content"
+            dangerouslySetInnerHTML={{ __html: record.content }}
+          />
         </div>
       ))}
     </div>
